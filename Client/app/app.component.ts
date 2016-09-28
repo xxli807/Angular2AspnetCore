@@ -1,6 +1,13 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular App lol</h1>'
+  template: `
+    <h1>{{title}}</h1>
+    <h2>My favorite hero is:</h2>
+    `
 })
-export class AppComponent { }
+
+export class AppComponent { 
+  title = 'Title binding';
+
+}
