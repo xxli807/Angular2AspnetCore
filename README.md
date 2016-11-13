@@ -13,7 +13,9 @@
 
 *   dotnet restore to restore the package
 *   dotnet watch run to start the project
-*   **important** add "debugType": "portable" in buildOptions of project.json to enable the debugger
+*   **hint** 
+*   add "debugType": "portable" in buildOptions of project.json to enable the debugger
+*   [add "compileOnSave": true  for typescript auto compile] (https://www.typescriptlang.org/docs/handbook/asp-net-core.html)
 
 
  

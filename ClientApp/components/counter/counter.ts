@@ -8,6 +8,7 @@ export class Counter {
     public currentCount = 0;
 
     public incrementCounter() {
+        debugger;
         this.currentCount++;
     }
 }
